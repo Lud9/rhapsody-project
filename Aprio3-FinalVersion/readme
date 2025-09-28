@@ -1,0 +1,18 @@
+# Download requiments
+    cd backend
+    rmdir /s venv # if want to remove old venv
+    python -m venv venv # create virtual environment
+    venv\Scripts\activate
+    python install -r requiment.txt
+
+
+# App Launch
+In terminal 1
+    cd backend
+    python api_server.py
+
+
+In terminal 2
+    cd src
+    npm start
+# may need to 'npm install --save-dev vite' if vite is not installed globally
